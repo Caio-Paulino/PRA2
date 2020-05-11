@@ -12,7 +12,8 @@ public class Movie {
     @NonNull
     @ColumnInfo(name = "movieId")
     private int mId;
-
+    
+    @Nullable
     @ColumnInfo(name = "movieTitle")
     private String mTitle;
 
